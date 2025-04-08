@@ -10,3 +10,13 @@ python benchmark_cisi.py
 # Passing arguments for vector db provider and search modes to benchmark
 python benchmark_cisi.py --vector_db_id "sqlite-vec" --search-modes "vector" "keyword"
 ```
+
+## Charts
+
+### Histograms
+![keyword](./images/histogram_cisi_ds_sqlite-vec_keyword.png)
+![vector](./images/histogram_cisi_ds_sqlite-vec_vector.png)
+### Radar
+![Radar](./images/sqlite-vec_radar_chart.png)
+### Bar
+![Bar](./images/sqlite-vec_evaluation_bar_chart.png)
